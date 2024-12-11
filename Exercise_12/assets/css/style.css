@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 40px;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 240, 200);
+}
+
+ul {
+    width: min-content;
+    cursor: pointer;
+}
+
+section:nth-child(2) {
+    height: 650px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.box {
+    position: relative;
+    padding: 100px;
+    width: min-content;
+    background-image: url(../img/thumb_l_22481.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

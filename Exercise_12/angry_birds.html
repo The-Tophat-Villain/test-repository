@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Учебная Практика 12</title>
+    <link rel="stylesheet" href="./assets/css/angry_birds.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Score<br>0</h1>
+
+        <div id="bird" style="margin-left: 5%; margin-top: 35vh;"><img src="./assets/img/red_front.png" name="pict" alt="RedBird"></div>
+        <div class="enemy pig" id="pig" style="margin-left: 50%; margin-top: 10%;"><img src="./assets/img/Pig.png" name="pict2" alt="Pig"></div>
+        <div class="enemy pig" id="pig2" style="margin-left: 50%; margin-top: 10%; display: none;"><img src="./assets/img/Scaredy_pig.png" name="pict3" alt="Pig"></div>
+        <div class="enemy tnt" id="tnt" style="margin-left: 50%; margin-top: 10%; display: none;"><img src="./assets/img/tnt.png" name="pict4" alt="TNT"></div>
+        <div class="enemy tnt" id="tnt2" style="margin-left: 50%; margin-top: 10%; display: none;"><img src="./assets/img/tnt.png" name="pict5" alt="TNT"></div>
+        <div class="enemy tnt" id="tnt3" style="margin-left: 50%; margin-top: 10%; display: none;"><img src="./assets/img/tnt.png" name="pict6" alt="TNT"></div>
+        <div class="enemy tnt" id="tnt4" style="margin-left: 50%; margin-top: 10%; display: none;"><img src="./assets/img/tnt.png" name="pict7" alt="TNT"></div>
+        <div class="enemy tnt" id="tnt5" style="margin-left: 50%; margin-top: 10%; display: none;"><img src="./assets/img/tnt.png" name="pict8" alt="TNT"></div>
+
+        <footer>
+            <span id="music_volume">Music volume <input type="range" onmousemove="ChangeMusicVolume()" onchange="ChangeMusicVolume()" min="0" max="100" value="25"></span>
+            <span id="original_author">Original game by <a href="https://en.wikipedia.org/wiki/Rovio_Entertainment"><img src="./assets/img/rovio.png" alt="rovio"></a></span>
+        </footer>
+    </main>
+
+    <audio id="angry_music" src="./assets/audio/Angry Birds Theme.mp3" loop></audio>
+    <audio id="red_scream" src="./assets/audio/Red_Bird_Fly.mp3.mpeg"></audio>
+    <audio id="red_ouch" src="./assets/audio/Bird 01 Collision A1.mp3"></audio>
+    <audio id="pig_scream" src="./assets/audio/Pigglette_death01.mp3"></audio>
+    <audio id="pig_oink" src="./assets/audio/Piglette Oink Story.mp3"></audio>
+    <audio id="pig_laugh" src="./assets/audio/PigLaugh01.mp3"></audio>
+    <audio id="tnt_explode" src="./assets/audio/tnt.mp3"></audio>
+    <audio id="egg_bonus" src="./assets/audio/Bird Next Military A1.mp3"></audio>
+
+    <script src="./assets/js/angry_birds.js" type="text/javascript"></script>
+
+</body>
+
+</html>
